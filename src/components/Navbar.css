@@ -1,0 +1,35 @@
+.navbar {
+    width: 100%;
+    padding: 25px 45px 12px;
+    display:grid;
+    grid-template-columns: 160px 1fr 170px;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: rgb(43, 22, 15);
+}
+.navbar-line {
+    width: 95%;
+    height: 3px;
+    background: rgb(43, 22, 15);
+    position: relative;
+}
+.left {
+    text-align: left;
+}
+.left-text {
+    line-height: 1;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.right {
+    text-align: right;
+}
+.right-text {
+    line-height: 1;
+}
