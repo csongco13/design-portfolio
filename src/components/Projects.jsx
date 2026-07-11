@@ -5,28 +5,28 @@ function Projects() {
         {
             title: "PyCoCard",
             category: "Education Card Game",
-            image: "public/PyCoCardScreenshot.png",
+            image: "/PyCoCardScreenshot.png",
             infoLink: "https://github.com/csongco13/PyCoCard",
             demoLink: "https://py-co-card.vercel.app/"
         },
         {
             title: "Collide",
             category: "Student Matching App",
-            image: "public/CollideScreenshot.png",
+            image: "/CollideScreenshot.png",
             infoLink: "https://github.com/zombby24/Collide",
             demoLink: "https://humorous-transformation-production.up.railway.app/"
         },
         {
             title: "Move-It",
             category: "Motion Rhythm Game",
-            image: "public/MoveItScreenshot.png",
+            image: "/MoveItScreenshot.png",
             infoLink: "https://github.com/Noah-Wisner/Move-It-CS179J",
             demoLink: "https://drive.google.com/file/d/1_2EH-XA_DEjyFZJq1Fza50mElsaligse/view?usp=sharing"
         },
         {
             title: "Mock Trial",
             category: "Student Mock Trial Website",
-            image: "public/MockTrialSS.png",
+            image: "/MockTrialSS.png",
             infoLink: "https://www.figma.com/design/fGmpfiiGvSQvV9xvVA08ID/Spring--25--Mock-Trial?node-id=0-1&t=se8fJJZk2sIu9xs9-0",
             demoLink: "https://www.figma.com/proto/fGmpfiiGvSQvV9xvVA08ID/Spring--25--Mock-Trial?node-id=344-57&p=f&t=lpgWGE7gKaJM3pyg-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=436%3A159"
         }
