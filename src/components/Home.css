@@ -51,6 +51,7 @@
     letter-spacing: -10px;
     color: rgb(48, 24, 15);
     font-weight: 900;
+    font-family: Po Arial;
     transform: scaleY(1.25);
     transform-origin: top;
 }
