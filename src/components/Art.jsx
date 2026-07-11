@@ -9,67 +9,67 @@ function Art() {
         {
             title: "Artwork 1",
             type: "Digital Art",
-            image: "public/art/IMG_1557.JPG"
+            image: "/art/IMG_1557.JPG"
         },
         {
             title: "Artwork 2",
             type: "Illustration",
-            image: "public/art/LARGER GASLIGHTING INFORGRAPH.jpg"
+            image: "/art/LARGER GASLIGHTING INFORGRAPH.jpg"
         },
         {
             title: "Artwork 3",
             type: "Graphic Design",
-            image: "public/art/illustration-img-1.jpeg"
+            image: "/art/illustration-img-1.jpeg"
         },
         {
             title: "Artwork 4",
             type: "Poster Design",
-            image: "public/art/illustration-img-2.jpg"
+            image: "/art/illustration-img-2.jpg"
         },
         {
             title: "Artwork 5",
             type: "Character Design",
-            image: "public/art/illustration-img-3.jpeg"
+            image: "/art/illustration-img-3.jpeg"
         },
         {
             title: "Artwork 6",
             type: "Visual Design",
-            image: "public/art/illustration-img-4.jpg"
+            image: "/art/illustration-img-4.jpg"
         },
         {
             title: "Artwork 7",
             type: "Digital Art",
-            image: "public/art/illustration-img-5.jpg"
+            image: "/art/illustration-img-5.jpg"
         },
         {
             title: "Artwork 8",
             type: "Illustration",
-            image: "public/art/illustration-img-6.jpg"
+            image: "/art/illustration-img-6.jpg"
         },
         {
             title: "Artwork 9",
             type: "Graphic Design",
-            image: "public/art/IMG_2514.PNG"
+            image: "/art/IMG_2514.PNG"
         },
         {
             title: "Artwork 10",
             type: "Poster Design",
-            image: "public/art/IMG_2516.PNG"
+            image: "/art/IMG_2516.PNG"
         },
         {
             title: "Artwork 11",
             type: "Creative Work",
-            image: "public/art/IMG_2517.PNG"
+            image: "/art/IMG_2517.PNG"
         },
         {
-            title: "Artwork 10",
+            title: "Artwork 12",
             type: "Poster Design",
-            image: "public/art/IMG_2518.PNG"
+            image: "/art/IMG_2518.PNG"
         },
                 {
-            title: "Artwork 10",
+            title: "Artwork 13",
             type: "Poster Design",
-            image: "public/art/IMG_2519.PNG"
+            image: "/art/IMG_2519.PNG"
         },
     ];
 
