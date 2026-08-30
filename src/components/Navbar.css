@@ -1,35 +1,76 @@
-.navbar {
-    width: 100%;
-    padding: 25px 45px 12px;
-    display:grid;
-    grid-template-columns: 160px 1fr 170px;
-    align-items: center;
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: -0.5px;
-    color: rgb(43, 22, 15);
+.portfolio-nav {
+  position: fixed;
+  top: 24px;
+  left: 50%;
+  font-family: "DM Sans", Arial;
+  z-index: 1000;
+
+  transform: translateX(-50%);
 }
-.navbar-line {
-    width: 95%;
-    height: 3px;
-    background: rgb(43, 22, 15);
-    position: relative;
+
+.portfolio-nav__menu {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  padding: 10px 14px;
+
+  border-radius: 22px;
+
+  background: rgb(113, 102, 236);;
+
+  box-shadow:
+    0 14px 35px rgba(0, 0, 0, 0.18),
+    inset 0 1px rgba(62, 0, 104, 0.9);
 }
-.left {
-    text-align: left;
+
+.portfolio-nav__item {
+  min-width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+
+  padding: 0 12px;
+
+  border-radius: 16px;
+
+  color: rgb(30, 30, 35);
+
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease,
+    padding 0.25s ease;
 }
-.left-text {
-    line-height: 1;
+
+.portfolio-nav__item:hover {
+  transform: translateY(-2px);
 }
-.center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+
+.portfolio-nav__item--active {
+  padding: 0 18px;
+
+  background: rgb(27, 27, 35);
+  color: rgb(255, 255, 255);
 }
-.right {
-    text-align: right;
+
+.portfolio-nav__icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
 }
-.right-text {
-    line-height: 1;
+
+.portfolio-nav__item--active .portfolio-nav__icon {
+  filter: brightness(0) invert(1);
+}
+
+.portfolio-nav__label {
+  font-size: 0.72rem;
+  letter-spacing: 0.03rem;
+
+  white-space: nowrap;
 }
