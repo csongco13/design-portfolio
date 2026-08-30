@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+.home-hero {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 40px 20px;
+}
+
+.home-hero__mockup {
+  position: relative;
+
+  width: min(100%, 760px);
+}
+
+.home-hero__image {
+  width: 100%;
+  display: block;
+}
+
+.home-hero__screen {
+  position: absolute;
+
+  top: 7%;
+  left: 50%;
+
+  width: 41%;
+  height: 26%;
+
+  transform: translateX(-50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 15px;
+
+  text-align: center;
+
+  color: rgb(178, 83, 255);
+
+  font-family: "VT323", monospace;
+}
+
+.home-hero__intro {
+  margin: 0 0 14px;
+
+  font-size: clamp(1.2rem, 2.6vw, 2rem);
+  line-height: 1.05;
+}
+
+.home-hero__role {
+  margin: 0;
+
+  font-size: clamp(0.85rem, 1.7vw, 1.3rem);
+  line-height: 1.1;
+
+  color: rgb(162, 76, 233);
+
+}
+
+.home-hero__cursor {
+  margin-left: 2px;
+
+  animation: home-hero-blink 0.75s infinite;
+}
+
+.home-hero__socials {
+  display: flex;
+  align-items: center;
+
+  gap: 14px;
+
+  margin-top: 18px;
+}
+
+.home-hero__social-link {
+  width: 46px;
+  height: 46px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+
+  background: rgb(113, 102, 236);
+
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease;
+}
+
+.home-hero__social-link:hover {
+  background: linear-gradient(
+    135deg,
+    rgb(40, 100, 255),
+    rgb(0, 210, 190)
+  );
+
+  transform: translateY(-4px);
+}
+
+.home-hero__social-icon {
+  width: 20px;
+  height: 20px;
+
+  object-fit: contain;
+}
+
+@keyframes home-hero-blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .home-hero__screen {
+    width: 43%;
+    top: 7%;
+  }
+
+  .home-hero__intro {
+    font-size: clamp(0.95rem, 3.6vw, 1.4rem);
+  }
+
+  .home-hero__role {
+    font-size: clamp(0.65rem, 2.8vw, 1rem);
+  }
+}
