@@ -68,16 +68,11 @@ button {
 
 .section-heading__title {
   position: relative;
-
   width: fit-content;
-
   margin: 0;
-
   font-family: Georgia, "Times New Roman", serif;
-
   font-size: clamp(3rem, 6vw, 5.7rem);
   font-weight: 500;
-
   letter-spacing: -0.15rem;
   line-height: 1;
 }
@@ -314,12 +309,9 @@ button {
 
 .project-card__image-background {
   position: absolute;
-
   width: 88%;
   height: 82%;
-
   border-radius: 21px;
-
   background: linear-gradient(
     135deg,
     rgba(111, 83, 211, 0.65),
@@ -400,16 +392,16 @@ button {
 }
 
 .project-card__label {
-  padding: 6px 10px;
+  padding:10px;
 
-  border: 1px solid rgba(91, 182, 224, 0.22);
   border-radius: 100px;
 
-  background: rgba(42, 97, 130, 0.13);
+  background: rgb(74, 157, 196);
 
-  color: rgb(148, 203, 219);
+  color: white;
 
-  font-size: 0.62rem;
+  font-size: 0.65rem;
+  font-weight: 600;
   letter-spacing: 0.06rem;
 
   text-transform: uppercase;
@@ -417,20 +409,14 @@ button {
 
 .project-card__title {
   margin: 0 0 13px;
-
-  font-family: Georgia, "Times New Roman", serif;
-
   font-size: clamp(1.9rem, 4vw, 3rem);
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .project-card__description {
   max-width: 530px;
-
   margin: 0;
-
   color: rgb(166, 163, 183);
-
   font-size: 0.91rem;
   line-height: 1.7;
 }
@@ -474,6 +460,7 @@ button {
   transition: transform 0.25s ease, background 0.25s ease;
 }
 
+
 .project-card__link:hover {
   background: linear-gradient(135deg,rgb(45, 95, 255),rgb(0, 210, 190));
 
@@ -490,6 +477,17 @@ button {
 .project-card__external-symbol {
   font-size: 1.2rem;
   line-height: 1;
+}
+
+.project-card__link--demo {
+  width: auto;
+  min-width: 150px;
+  padding: 0 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  white-space: nowrap;
 }
 
 .contact {

@@ -222,14 +222,14 @@ function App() {
 
                     {project.live && (
                       <a
-                        className="project-card__link"
+                        className="project-card__link project-card__link--demo"
                         href={project.live}
                         target="_blank"
                         rel="noreferrer"
                         aria-label={`${project.title} live project`}
                       >
                         <span className="project-card__external-symbol">
-                          ↗
+                          See Live Demo ↗
                         </span>
                       </a>
                     )}
