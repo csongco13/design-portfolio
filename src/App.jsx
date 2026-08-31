@@ -24,7 +24,7 @@ const projects = [
     image: "/images/mockitup.png",
     tech: ["React", "TypeScript", "PostgreSQL", "Expo"],
     github: "https://github.com/csongco13/Mock-It-Up",
-    live: "https://mock-it-up-three.vercel.app/",
+    live:  "https://mock-it-up-three.vercel.app/",
   },
 
   {

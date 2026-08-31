@@ -52,10 +52,6 @@ button {
   overflow: hidden;
 }
 
-/* =========================
-   GENERAL SECTION HEADING
-========================= */
-
 .section-heading {
   width: min(92%, 1100px);
   margin: 0 auto 50px;
@@ -113,10 +109,6 @@ button {
   );
 }
 
-/* =========================
-   ABOUT
-========================= */
-
 .about {
   padding: 110px 24px;
 }
@@ -136,7 +128,7 @@ button {
   padding: 65px;
 
   border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 32px;
+  border-radius: 5px;
 
   background: linear-gradient(
     145deg,
@@ -171,10 +163,6 @@ button {
   font-size: 0.95rem;
   line-height: 1.8;
 }
-
-/* =========================
-   PROJECTS
-========================= */
 
 .projects {
   padding: 110px 24px;
@@ -265,10 +253,6 @@ button {
 
   gap: 55px;
 }
-
-/* =========================
-   PROJECT CARD
-========================= */
 
 .project-card {
   min-height: 340px;
@@ -480,29 +464,18 @@ button {
 .project-card__link {
   width: 42px;
   height: 42px;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   border: 1px solid rgba(255, 255, 255, 0.13);
   border-radius: 13px;
-
-  background: rgba(255, 255, 255, 0.04);
-
+  background:  rgb(113, 102, 236);
   color: rgb(232, 231, 238);
-
-  transition:
-    transform 0.25s ease,
-    background 0.25s ease;
+  transition: transform 0.25s ease, background 0.25s ease;
 }
 
 .project-card__link:hover {
-  background: linear-gradient(
-    135deg,
-    rgb(45, 95, 255),
-    rgb(0, 210, 190)
-  );
+  background: linear-gradient(135deg,rgb(45, 95, 255),rgb(0, 210, 190));
 
   transform: translateY(-4px);
 }
@@ -518,10 +491,6 @@ button {
   font-size: 1.2rem;
   line-height: 1;
 }
-
-/* =========================
-   CONTACT
-========================= */
 
 .contact {
   padding: 120px 24px 90px;
@@ -618,9 +587,6 @@ button {
   transform: translateY(-5px);
 }
 
-/* =========================
-   FOOTER
-========================= */
 
 .footer {
   padding: 25px 24px 40px;
@@ -636,10 +602,6 @@ button {
   font-size: 0.7rem;
   letter-spacing: 0.07rem;
 }
-
-/* =========================
-   RESPONSIVE
-========================= */
 
 @media (max-width: 950px) {
   .skills__grid {
