@@ -18,13 +18,13 @@ const projects = [
   {
     id: 1,
     title: "MockItUp",
-    categories: ["Software", "Web", "UI/UX"],
+    categories: ["Software", "Web", "Mobile", "UI/UX"],
     description:
       "A branding and prototyping assistant app that turns any image you captured or any image you upload into a website prototype, mobile prototype, blog prototype, and many more.",
     image: "/images/mockitup.png",
-    tech: ["React", "TypeScript", "Supabase", "Expo"],
+    tech: ["React", "TypeScript", "PostgreSQL", "Expo"],
     github: "https://github.com/csongco13/Mock-It-Up",
-    live: "",
+    live: "https://mock-it-up-three.vercel.app/",
   },
 
   {
@@ -107,17 +107,15 @@ function App() {
         <div className="about__panel">
           <div className="about__content">
             <p className="about__intro">
-              I’m a software developer and designer interested in
-              building interactive digital experiences that combine
-              technology, usability, and visual design.
+              Hi! I'm Courtney Songco, I am a Computer Science student who is currently seeking
+              a job in Software Development or UI/UX Design.
             </p>
 
             <p className="about__text">
-              My work includes web applications, mobile applications,
-              UI/UX design, embedded systems, and game development.
-              I enjoy working across both engineering and design to
-              create products that are functional, approachable, and
-              visually engaging.
+              I enjoy making projects involving web and mobile applications. I am getting more involved 
+              with game development and embedded systems. I have previous experience of web designing from my
+              internship at the USDA, and I also have learned software development skills from my internship
+              back in The Philippines.
             </p>
           </div>
 
