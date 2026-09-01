@@ -24,6 +24,7 @@ const projects = [
     image: "/images/mockitup.png",
     tech: ["React", "TypeScript", "PostgreSQL", "Expo"],
     github: "https://github.com/csongco13/Mock-It-Up",
+    case: "public/case-studies/mockitup/index.html",
     live:  "https://mock-it-up-three.vercel.app/",
   },
 
@@ -36,18 +37,19 @@ const projects = [
     image: "/images/csnotes.png",
     tech: ["React", "TypeScript", "PostgreSQL", "CSS"],
     github: "https://github.com/csongco13/CodaNote",
+    case: "public/case-studies/codanote/index.html",
     live: "https://coda-note.vercel.app/",
   },
 
   {
     id: 3,
-    title: "PaletteAI",
-    categories: ["Software", "Mobile", "UI/UX"],
+    title: "Collide",
+    categories: ["Software", "Web"],
     description:
-      "A mobile branding assistant that helps users generate color palettes and visual design concepts from images and moodboards.",
-    image: "/images/paletteai.png",
-    tech: ["React Native", "Expo", "Firebase"],
-    github: "https://github.com/",
+      "Group match-matching social media platform for UC Riverside students utilizing swipe-based UI.",
+    image: "/images/collide.png",
+    tech: ["React Native", "SQL", "MongoDB"],
+    github: "https://github.com/zombby24/Collide",
     live: "",
   },
 
@@ -107,7 +109,7 @@ function App() {
         <div className="about__panel">
           <div className="about__content">
             <p className="about__intro">
-              Hi! I'm Courtney Songco, I am a Computer Science student who is currently seeking
+              Hi! I'm Courtney Songco, I am a Computer Science student based in California who is currently seeking
               a job in Software Development or UI/UX Design.
             </p>
 
@@ -217,6 +219,20 @@ function App() {
                           src="/icons/github.png"
                           alt=""
                         />
+                      </a>
+                    )}
+
+                    {project.case && (
+                      <a
+                        className="project-card__link project-card__link--demo"
+                        href={project.case}
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label={`${project.title} ui/ux case study`}
+                      >
+                        <span className="project-card__external-symbol">
+                          See UI/UX Case Study ↗
+                        </span>
                       </a>
                     )}
 
