@@ -88,7 +88,7 @@ function HomeHero() {
 
         <a
           className="home-hero__social-link"
-          href="https://www.linkedin.com/in/courtney-s-094589200//"
+          href="https://www.linkedin.com/in/courtney-s-094589200/"
           target="_blank"
           rel="noreferrer"
           aria-label="LinkedIn"
@@ -114,7 +114,7 @@ function HomeHero() {
 
         <a
           className="home-hero__social-link"
-          href="https://instagram.com/"
+          href="https://www.instagram.com/escope21?igsi=Y3JjbGJha3I4ZGRq&utm_source=qr"
           target="_blank"
           rel="noreferrer"
           aria-label="Instagram"
