@@ -276,6 +276,52 @@ video {
     transform: translateY(5cqw);
 }
 
+/*FOR CODANOTE*/
+.codanote-collage{
+    position: relative;
+    width:100vw;
+    max-width: none;
+    height:760px;
+    margin-inline: calc(50%-50vw);
+    overflow:hidden;
+    background-color: #f1f2f3;
+}
+
+.codanote-collage__inner {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    max-width: 1500px;
+
+    margin: 0 auto;
+}
+
+.codanote-collage__image--back {
+    position: absolute;
+    height: 40%;
+    object-fit: cover;
+    right: 9%;
+    top: 90px;
+    z-index: 1;
+
+    box-shadow:
+        0 25px 55px rgba(0, 0, 0, 0.15);
+}
+
+
+.codanote-collage__image--front {
+    position: absolute;
+    width: min(760px, 56vw);
+    left: 8%;
+    bottom: 45px;
+    z-index: 2;
+
+    box-shadow:
+        0 30px 60px rgba(0, 0, 0, 0.18);
+}
+
 @media (max-width: 900px) {
     .hero {
         min-height: auto;
@@ -312,7 +358,29 @@ video {
         padding-top: 90px;
         padding-bottom: 110px;
     }
+
+    .codanote-collage {
+        height: 650px;
+    }
+
+
+    .codanote-collage__image--back {
+        width: 60vw;
+
+        right: 5%;
+        top: 70px;
+    }
+
+
+    .codanote-collage__image--front {
+        width: 72vw;
+
+        left: 5%;
+        bottom: 50px;
+    }
+
 }
+
 
 
 @media (max-width: 600px) {
@@ -366,5 +434,22 @@ video {
 
     .subheading {
         margin-top: 35px;
+    }
+     .codanote-collage {
+        height: 500px;
+    }
+
+
+    .codanote-collage__image--back {
+        width: 72vw;
+        right: 2%;
+        top: 60px;
+    }
+
+
+    .codanote-collage__image--front {
+        width: 84vw;
+        left: 2%;
+        bottom: 40px;
     }
 }
