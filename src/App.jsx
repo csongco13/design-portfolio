@@ -24,7 +24,7 @@ const projects = [
     image: "/images/mockitup.png",
     tech: ["React", "TypeScript", "PostgreSQL", "Expo"],
     github: "https://github.com/csongco13/Mock-It-Up",
-    case: "public/case-studies/mockitup/index.html",
+    case: "/case-studies/mockitup/index.html",
     live:  "https://mock-it-up-three.vercel.app/",
   },
 
@@ -37,7 +37,7 @@ const projects = [
     image: "/images/csnotes.png",
     tech: ["React", "TypeScript", "PostgreSQL", "CSS"],
     github: "https://github.com/csongco13/CodaNote",
-    case: "public/case-studies/codanote/index.html",
+    case: "/case-studies/codanote/index.html",
     live: "https://coda-note.vercel.app/",
   },
 
