@@ -65,17 +65,6 @@ const projects = [
     live: "https://drive.google.com/drive/u/2/folders/18aF3xZQ2vkpVuV6g5rUQA8jSoTXWzKOQ",
   },
 
-  {
-    id: 5,
-    title: "Rushmore Food Catering Website Case Study",
-    categories: ["Web", "UI/UX"],
-    description:
-      "A UI/UX case study exploring the research, wireframing, prototyping, and development process behind a responsive portfolio redesign.",
-    image: "/images/casestudy.png",
-    tech: ["Figma", "React"],
-    github: "",
-    live: "",
-  },
 ];
 
 function App() {
