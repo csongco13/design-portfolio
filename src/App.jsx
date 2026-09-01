@@ -18,13 +18,14 @@ const projects = [
   {
     id: 1,
     title: "MockItUp",
-    categories: ["Software", "Web", "UI/UX"],
+    categories: ["Software", "Web", "Mobile", "UI/UX"],
     description:
       "A branding and prototyping assistant app that turns any image you captured or any image you upload into a website prototype, mobile prototype, blog prototype, and many more.",
     image: "/images/mockitup.png",
-    tech: ["React", "TypeScript", "Supabase", "Expo"],
+    tech: ["React", "TypeScript", "PostgreSQL", "Expo"],
     github: "https://github.com/csongco13/Mock-It-Up",
-    live: "",
+    case: "public/case-studies/mockitup/index.html",
+    live:  "https://mock-it-up-three.vercel.app/",
   },
 
   {
@@ -36,18 +37,19 @@ const projects = [
     image: "/images/csnotes.png",
     tech: ["React", "TypeScript", "PostgreSQL", "CSS"],
     github: "https://github.com/csongco13/CodaNote",
-    live: "",
+    case: "public/case-studies/codanote/index.html",
+    live: "https://coda-note.vercel.app/",
   },
 
   {
     id: 3,
-    title: "PaletteAI",
-    categories: ["Software", "Mobile", "UI/UX"],
+    title: "Collide",
+    categories: ["Software", "Web"],
     description:
-      "A mobile branding assistant that helps users generate color palettes and visual design concepts from images and moodboards.",
-    image: "/images/paletteai.png",
-    tech: ["React Native", "Expo", "Firebase"],
-    github: "https://github.com/",
+      "Group match-matching social media platform for UC Riverside students utilizing swipe-based UI.",
+    image: "/images/collide.png",
+    tech: ["React Native", "SQL", "MongoDB"],
+    github: "https://github.com/zombby24/Collide",
     live: "",
   },
 
@@ -60,7 +62,7 @@ const projects = [
     image: "/images/moveit.png",
     tech: ["Godot", "ESP32", "C++", "UDP"],
     github: "https://github.com/",
-    live: "",
+    live: "https://drive.google.com/drive/u/2/folders/18aF3xZQ2vkpVuV6g5rUQA8jSoTXWzKOQ",
   },
 
   {
@@ -107,17 +109,15 @@ function App() {
         <div className="about__panel">
           <div className="about__content">
             <p className="about__intro">
-              I’m a software developer and designer interested in
-              building interactive digital experiences that combine
-              technology, usability, and visual design.
+              Hi! I'm Courtney Songco, I am a Computer Science student based in California who is currently seeking
+              a job in Software Development or UI/UX Design.
             </p>
 
             <p className="about__text">
-              My work includes web applications, mobile applications,
-              UI/UX design, embedded systems, and game development.
-              I enjoy working across both engineering and design to
-              create products that are functional, approachable, and
-              visually engaging.
+              I enjoy making projects involving web and mobile applications. I am getting more involved 
+              with game development and embedded systems. I have previous experience of web designing from my
+              internship at the USDA, and I also have learned software development skills from my internship
+              back in The Philippines.
             </p>
           </div>
 
@@ -222,16 +222,30 @@ function App() {
                       </a>
                     )}
 
+                    {project.case && (
+                      <a
+                        className="project-card__link project-card__link--demo"
+                        href={project.case}
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label={`${project.title} ui/ux case study`}
+                      >
+                        <span className="project-card__external-symbol">
+                          See UI/UX Case Study ↗
+                        </span>
+                      </a>
+                    )}
+
                     {project.live && (
                       <a
-                        className="project-card__link"
+                        className="project-card__link project-card__link--demo"
                         href={project.live}
                         target="_blank"
                         rel="noreferrer"
                         aria-label={`${project.title} live project`}
                       >
                         <span className="project-card__external-symbol">
-                          ↗
+                          See Live Demo ↗
                         </span>
                       </a>
                     )}

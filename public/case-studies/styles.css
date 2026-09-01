@@ -34,10 +34,6 @@ video {
 }
 
 
-/* ================================
-   HERO
-================================ */
-
 .hero {
     min-height: 720px;
     display: grid;
@@ -49,11 +45,6 @@ video {
     padding-bottom: 100px;
 }
 
-/*
-    The text appears on the left and the
-    project mockup appears on the right,
-    like the reference website.
-*/
 
 .hero--left {
     order: 1;
@@ -285,6 +276,148 @@ video {
     transform: translateY(5cqw);
 }
 
+/*FOR CODANOTE*/
+.codanote-collage{
+    position: relative;
+    width:100vw;
+    max-width: none;
+    height:760px;
+    margin-inline: calc(50%-50vw);
+    overflow:hidden;
+    background-color: #f1f2f3;
+}
+
+.codanote-collage__inner {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    max-width: 1500px;
+
+    margin: 0 auto;
+}
+
+.codanote-collage__image--back {
+    position: absolute;
+    height: 40%;
+    object-fit: cover;
+    right: 9%;
+    top: 90px;
+    z-index: 1;
+
+    box-shadow:
+        0 25px 55px rgba(0, 0, 0, 0.15);
+}
+
+
+.codanote-collage__image--front {
+    position: absolute;
+    width: min(760px, 56vw);
+    left: 8%;
+    bottom: 45px;
+    z-index: 2;
+
+    box-shadow:
+        0 30px 60px rgba(0, 0, 0, 0.18);
+}
+
+.laptop-mockup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: min(1100px, 92vw);
+    margin: 0 auto;
+}
+
+
+.laptop-mockup__screen {
+    position: relative;
+
+    width: 100%;
+    aspect-ratio: 16 / 10;
+
+    padding: 18px 12px 12px;
+    background: #111111;
+    border: 3px solid #3d3d3d;
+    border-radius: 22px 22px 10px 10px;
+
+    box-shadow:
+        inset 0 0 0 2px #2a2a2a,
+        0 18px 35px rgba(0, 0, 0, 0.18);
+}
+
+
+.laptop-mockup__screen::before {
+    content: "";
+
+    position: absolute;
+    top: 7px;
+    left: 50%;
+
+    width: 7px;
+    height: 7px;
+
+    transform: translateX(-50%);
+    border-radius: 50%;
+
+    background-color: #2c2c2c;
+    z-index: 2;
+}
+
+
+.laptop-mockup__video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center top;
+    border-radius: 10px;
+
+    background-color: #000000;
+}
+
+
+.laptop-mockup__base {
+    position: relative;
+
+    width: 112%;
+    height: 24px;
+
+    margin-top: -2px;
+
+    background: linear-gradient(
+        to bottom,
+        #89898b 0%,
+        #464749 45%,
+        #252627 100%
+    );
+
+    border-radius: 0 0 30px 30px;
+
+    box-shadow:
+        0 10px 18px rgba(0, 0, 0, 0.12);
+}
+
+
+.laptop-mockup__base::before {
+    content: "";
+
+    position: absolute;
+    left: 50%;
+    top: 4px;
+
+    width: 140px;
+    height: 10px;
+
+    transform: translateX(-50%);
+    border-radius: 0 0 10px 10px;
+
+    background-color: rgba(120, 120, 120, 0.45);
+}
+
 @media (max-width: 900px) {
     .hero {
         min-height: auto;
@@ -321,7 +454,29 @@ video {
         padding-top: 90px;
         padding-bottom: 110px;
     }
+
+    .codanote-collage {
+        height: 650px;
+    }
+
+
+    .codanote-collage__image--back {
+        width: 60vw;
+
+        right: 5%;
+        top: 70px;
+    }
+
+
+    .codanote-collage__image--front {
+        width: 72vw;
+
+        left: 5%;
+        bottom: 50px;
+    }
+
 }
+
 
 
 @media (max-width: 600px) {
@@ -375,5 +530,22 @@ video {
 
     .subheading {
         margin-top: 35px;
+    }
+     .codanote-collage {
+        height: 500px;
+    }
+
+
+    .codanote-collage__image--back {
+        width: 72vw;
+        right: 2%;
+        top: 60px;
+    }
+
+
+    .codanote-collage__image--front {
+        width: 84vw;
+        left: 2%;
+        bottom: 40px;
     }
 }

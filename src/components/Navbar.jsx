@@ -26,7 +26,7 @@ function Navbar() {
     {
       id: "contact",
       label: "CONTACT",
-      icon: "/icons/email.•png",
+      icon: "/icons/email.png",
       href: "#home",
     },
   ];
