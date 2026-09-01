@@ -36,7 +36,7 @@ const projects = [
     image: "/images/csnotes.png",
     tech: ["React", "TypeScript", "PostgreSQL", "CSS"],
     github: "https://github.com/csongco13/CodaNote",
-    live: "",
+    live: "https://coda-note.vercel.app/",
   },
 
   {
@@ -60,7 +60,7 @@ const projects = [
     image: "/images/moveit.png",
     tech: ["Godot", "ESP32", "C++", "UDP"],
     github: "https://github.com/",
-    live: "",
+    live: "https://drive.google.com/drive/u/2/folders/18aF3xZQ2vkpVuV6g5rUQA8jSoTXWzKOQ",
   },
 
   {

@@ -34,10 +34,6 @@ video {
 }
 
 
-/* ================================
-   HERO
-================================ */
-
 .hero {
     min-height: 720px;
     display: grid;
@@ -49,11 +45,6 @@ video {
     padding-bottom: 100px;
 }
 
-/*
-    The text appears on the left and the
-    project mockup appears on the right,
-    like the reference website.
-*/
 
 .hero--left {
     order: 1;
