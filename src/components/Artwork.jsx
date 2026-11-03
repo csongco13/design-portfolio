@@ -16,7 +16,7 @@ const artworks = [
     title: "Spiraling Out of Control",
     category: "Traditional",
     medium: "Graphite & ink",
-    image: "/artwork/spiraling.jpg",
+    image: "/artwork/spiraling.PNG",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const artworks = [
     title: "Celestial Halo",
     category: "Traditional",
     medium: "Ink & graphite",
-    image: "/artwork/celestial-halo.jpg",
+    image: "/artwork/celestial-halo.PNG",
   },
   {
     id: 5,
@@ -51,28 +51,28 @@ const artworks = [
     title: "Beanie",
     category: "Digital",
     medium: "Vector portrait",
-    image: "/artwork/pink-portrait-beanie.jpg",
+    image: "/artwork/pink-portrait-beanie.jpeg",
   },
   {
     id: 8,
     title: "In Bloom",
     category: "Traditional",
     medium: "Pen & ink",
-    image: "/artwork/floral-eyepatch.jpg",
+    image: "/artwork/floral-eyepatch.PNG",
   },
   {
     id: 9,
     title: "Pink Noir",
     category: "Digital",
     medium: "Vector illustration",
-    image: "/artwork/pink-noir.jpg",
+    image: "/artwork/pink-noir.jpeg",
   },
   {
     id: 10,
     title: "Space & Sea",
     category: "Traditional",
     medium: "Graphite & ink",
-    image: "/artwork/space-and-sea.jpg",
+    image: "/artwork/space-and-sea.PNG",
   },
   {
     id: 11,
@@ -86,14 +86,14 @@ const artworks = [
     title: "Balance",
     category: "Traditional",
     medium: "Pen & ink",
-    image: "/artwork/yin-yang-bath.jpg",
+    image: "/artwork/yin-yang-bath.PNG",
   },
   {
     id: 13,
     title: "To Kill a Mockingbird",
     category: "Graphic Design",
     medium: "Editorial spread · Photoshop",
-    image: "/artwork/mockingbird-spread.jpg",
+    image: "/artwork/mockingbird-spread.JPG",
   },
 ];
 

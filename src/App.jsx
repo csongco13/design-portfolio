@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar from "./components/Navbar"
 import HomeHero from "./components/HomeHero";
 import Skills from "./components/Skills"
+import Artwork from "./components/Artwork"
 import "./App.css";
 
 const categories = [
@@ -245,7 +246,7 @@ function App() {
           ))}
         </div>
       </section>
-
+      <Artwork />
       <footer className="footer">
         <p className="footer__text">
           © 2026 Courtney Songco
